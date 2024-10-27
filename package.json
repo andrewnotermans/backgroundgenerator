@@ -1,0 +1,22 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewnotermans/backgroundgenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewnotermans/backgroundgenerator/issues"
+  },
+  "homepage": "https://github.com/andrewnotermans/backgroundgenerator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
